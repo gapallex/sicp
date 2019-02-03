@@ -1,0 +1,4 @@
+#!/bin/bash
+# new .rkt for sicp unit
+touch $1.rkt
+echo "#lang racket/base" > $1.rkt
